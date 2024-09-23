@@ -46,7 +46,9 @@ h1 {
     padding-top: 1em;
 }
 
-input {
+a {
+    display: inline-block;
+    text-decoration: none;
     background: transparent;
     color: #926239;
     border: 1px solid #926239;
@@ -55,12 +57,12 @@ input {
     margin-top: 1em;
 }
 
-input:hover {
+a:hover {
     background-color: #926239;
     color: white;
 }
 
-input:active {
+a:active {
     background-color: #92531c;
 }
 
